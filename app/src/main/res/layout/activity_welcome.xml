@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Welcome">
+
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="700dp"
+    android:scaleType="centerCrop"
+    android:src="@drawable/entrada"
+    android:id="@+id/imageView2"
+    android:layout_alignParentTop="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/usable"
+        android:textColor="@color/text_color"
+        android:text="@string/bienvenido"
+        android:background="#cccc"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp" />
+
+    <Button
+        android:layout_width="270dp"
+        android:background="@color/primary"
+        android:textColor="@color/text_color"
+        android:textSize="25sp"
+        android:layout_height="75dp"
+        android:text="@string/boton_facebook"
+        android:id="@+id/c"
+        android:onClick="hola"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

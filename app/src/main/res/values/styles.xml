@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <color name="primary_dark">#880e4f</color>
+    <color name="primary">#ed1e79</color>
+    <color name="accent">#18ffff</color>
+    <color name="text_color">#fefefe</color>
+    <color name="backgorund_main">#000</color>
+    <color name="facebook">#3b5998</color>
+    <color name="bg">#efefef</color>
+
+    <!-- ActionBar styles -->
+    <style name="MyActionBar"
+        parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/primary</item>
+    </style>
+
+
+
+</resources>
+
